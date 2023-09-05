@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html ,body{
+
+    width: 100%;
+    height: 100%;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color:#483dbf;
+}
+#panel{
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    background-color:white;
+    border-radius: 10px;
+}
+#Ptop{
+    justify-content: space-between;
+    padding: 0px 30%;
+    align-items: center;
+    color: #fff;
+    display: flex;
+    overflow: hidden;
+    width:100%;
+    height:100px;
+    background-color: rgb(19, 23, 19);
+}
+.Ram{
+    
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+.Ram h2{
+    font-weight: 500;
+    font-size: 22px;
+}
+.box{ 
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #ee0d0d;
+}
+#Pbtm{
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    height:calc(100%-100px);
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.bubble{
+    width: 60px;
+    height: 60px;
+    background-color: hsl(311, 72%, 48%);
+    border-radius:50%;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  color: #fff;
+     
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color:rgb(45, 65, 45) ;
+}
+#game{
+  color: #ff0000;
+  padding: 20% 20%;
+  font-size: 65px ;
+
+}
